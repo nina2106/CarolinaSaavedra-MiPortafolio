@@ -14,7 +14,7 @@ const Home = () => {
       {/* Contenedor principal con texto alineado a la izquierda */}
       <div className="relative z-10 bg-blue bg-opacity-20 rounded-lg shadow-md text-left max-w-4xl ml-16 p-8"> {/* Usamos ml-16 para desplazar a la izquierda */}
         <h1 className="text-9xl text-blue-200 font-bold mb-4">Bienvenido a Mi Portafolio</h1> {/* Texto grande */}
-        <p className="text-6xl text-white mb-10">Maria Carolina Saavedra Garzon</p> {/* Texto grande */}
+        <p className="text-6xl text-blue-200 mb-10">Maria Carolina Saavedra Garzon</p> {/* Texto grande */}
         
         {/* Botón para ir a About Me */}
         <Link to="/about">
