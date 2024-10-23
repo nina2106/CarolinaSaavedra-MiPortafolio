@@ -4,48 +4,28 @@ import myGif from '../assets/imagen/fantasy.gif'; // Asegúrate de que esta ruta
 
 const Home = () => {
   return (
-    <div className="relative flex flex-col items-center justify-center min-h-screen">
+    <div className="relative flex flex-col items-start justify-center h-screen bg-gray-100"> {/* Cambiado a items-start para alinear a la izquierda */}
       {/* GIF como fondo */}
       <img
         src={myGif}
         alt="Fondo animado"
-        className="absolute inset-0 w-full h-full object-cover" // GIF cubriendo toda la pantalla
+        className="absolute inset-0 w-full h-full object-cover"
       />
-      {/* Contenedor principal */}
-      <div className="relative z-10 p-4 bg-white bg-opacity-40 rounded-lg shadow-lg text-center"> {/* Reducción de padding */}
-        <h1 className="text-3xl font-bold mb-2">Bienvenido a Mi Portafolio</h1> {/* Ajustar el tamaño del texto */}
-        <p className="text-xl font-bold mb-2">Maria Carolina Saavedra Garzon</p> {/* Ajustar el tamaño del texto */}
-
-        {/* Contenedores para las secciones */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-2"> {/* Reducir el gap */}
-          {/* Experiencia */}
-          <div className="p-3 bg-white bg-opacity-40 rounded-lg shadow"> {/* Reducción de padding */}
-            <h2 className="text-xl font-semibold mb-1">Experiencia</h2> {/* Ajustar el tamaño del texto */}
-            <p className="text-sm">Actualmente trabajo como diseñadora web junior, donde aplico mis conocimientos en diseño y desarrollo de interfaces.</p>
-          </div>
-
-          {/* Proyectos Académicos */}
-          <div className="p-3 bg-white bg-opacity-40 rounded-lg shadow"> {/* Reducción de padding */}
-            <h2 className="text-xl font-semibold mb-1">Proyectos Académicos</h2> {/* Ajustar el tamaño del texto */}
-            <p className="text-sm">He trabajado en varios proyectos durante mis estudios, incluyendo desarrollo de aplicaciones web.</p>
-          </div>
-
-          {/* Habilidades */}
-          <div className="p-3 bg-white bg-opacity-40 rounded-lg shadow"> {/* Reducción de padding */}
-            <h2 className="text-xl font-semibold mb-1">Habilidades</h2> {/* Ajustar el tamaño del texto */}
-            <p className="text-sm">HTML, CSS, JavaScript, React, diseño de experiencia de usuario, y trabajo en equipo.</p>
-          </div>
-
-          {/* Intereses */}
-          <div className="p-3 bg-white bg-opacity-40 rounded-lg shadow"> {/* Reducción de padding */}
-            <h2 className="text-xl font-semibold mb-1">Intereses</h2> {/* Ajustar el tamaño del texto */}
-            <p className="text-sm">Me apasiona seguir aprendiendo sobre desarrollo frontend y mejorar mis habilidades en diseño.</p>
-          </div>
-        </div>
+      {/* Contenedor principal con texto alineado a la izquierda */}
+      <div className="relative z-10 bg-blue bg-opacity-20 rounded-lg shadow-md text-left max-w-4xl ml-16 p-8"> {/* Usamos ml-16 para desplazar a la izquierda */}
+        <h1 className="text-9xl text-blue-200 font-bold mb-4">Bienvenido a Mi Portafolio</h1> {/* Texto grande */}
+        <p className="text-6xl text-white mb-10">Maria Carolina Saavedra Garzon</p> {/* Texto grande */}
+        
+        {/* Botón para ir a About Me */}
+        <Link to="/about">
+          <button className="mt-8 text-2xl text-white bg-blue-700 hover:bg-blue-600 bg-opacity-80 rounded-lg shadow-md px-8 py-4">
+            About Me
+          </button>
+        </Link>
 
         {/* Botón para ir a Servicios */}
         <Link to="/services">
-          <button className="mt-4 bg-white bg-opacity-40 p-2 rounded">
+          <button className="mt-8 text-2xl text-white bg-blue-700 hover:bg-blue-600 bg-opacity-80 rounded-lg shadow-md px-8 py-4 ml-4">
             Ver Servicios
           </button>
         </Link>
