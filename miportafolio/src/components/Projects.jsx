@@ -1,5 +1,5 @@
 import React from 'react';
-import myGif from '../assets/imagen/fantasy.gif'; 
+import myGif from '../assets/imagen/fondo.jpg'; 
 
 const Projects = () => {
   const projectList = [

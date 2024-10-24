@@ -4,10 +4,11 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './components/About';
-import Projects from './pages/Projects';
-import Contact from './pages/Contact';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
 import Error404 from './pages/Error404';
 import Services from './components/Services';
+import { Contact2 } from './components/Contact2';
 
 const App = () => {
   return (
@@ -18,7 +19,8 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/Contact2" element={<Contact2 />} />
+        <Route path="/Contact" element={<Contact />} />
         <Route path="*" element={<Error404 />} /> 
       </Routes>
       <Footer />

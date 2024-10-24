@@ -1,5 +1,5 @@
 import React from 'react';
-import myGif from '../assets/imagen/fantasy.gif'; // Asegúrate de que esta ruta sea correcta
+import myGif from '../assets/imagen/fondo.jpg'; // Asegúrate de que esta ruta sea correcta
 
 const Services = () => {
   return (
