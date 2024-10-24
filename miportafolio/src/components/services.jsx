@@ -12,7 +12,7 @@ const Services = () => {
       />
       {/* Contenedor principal para título y servicios */}
       <div className="relative z-10 container mx-auto px-4">
-        <h2 className="p-8 bg-white bg-opacity-40 rounded-lg shadow-lg text-center mb-10 text-3xl font-bold text-b drop-shadow-lg">
+        <h2 className="p-8 rounded-lg shadow-lg text-center mb-10 text-9xl font-bold text-blue-200 drop-shadow-lg">
           Servicios
         </h2>
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -47,19 +47,30 @@ const Services = () => {
               description: 'Desarrollo de aplicaciones móviles con Flutter.',
               imageUrl: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQoAAAC+CAMAAAD6ObEsAAAAjVBMVEX///9E0f10dHRsbGwIWJwfvP1vb29ycnKBgYHFxcX7+/u6urp2dnbY2Njc3Nw4z/31/f/S0tJQ1P309PQaXZ6srKylpaVoaGjT09OQkJC0tLQAUJhy2v3AwMCKioo/w/3n5+d+fn5Ke69p2P3u+v82bqjs7Oyenp6VlZWA4f8er/BhiLU/xf9DdqxUgbLHI19CAAAEiklEQVR4nO3ZbXubNhiGYSrFkg2ya4faMnQQvLV2mrX7/z9vjwAh/BLArIBz7D4/NIFAYq4DkKCeBwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB/d+vlT3R9Tf57prJ8/10J8/mvqzzMdlLBQwkIJCyUslLBQwkIJCyWsixJtc8zgXBzSuiQIVmN81IHdWcIT53RG6w5cL4b/pEO7t4THmGLyIsWcicYUfhiGtaVjfelh3F2CUrBot63szFG1pdhoLtzSUnP+eC3uL0Ep+NV9oS3FnjPllpacyYdL0aOESbG8XPfxU/Qp0SvF5tFT9CrxG86KFaXwL7a4fSP1RyrWr0RjikUc134Wx3FGX4I4OEmlAlpcmE2CnVRsS0tJuV22VZxzESXVnoskoQgBrR5lkO5ZojFFyvnWreUiPxAlBJWgfwWfe17Eq6VDsdlJCxqfaYTmYl/uqbjOjopOJSUSb3B9SzSmiKSI3VrJ+MYzx9WYIhVKck0ngFDMngMHxjMlJZ0revgUvUvckUIUKZIkMRcIfQnMBRIk5gIJkjjId3kVikdmdD5uOWP5hM2kYKnk0Wa1DAa/QG6XMG+8n53bfZrmFTdTeNe3TVWNIAlXPLDrBZPz/LsDXS/V6mF9e6dElydUmm0e0krx0d9JoWyKy8G0SuEzJk7VDzbUxZxxPqWo/6IhnaW4r0T+DFKRMl/XOwUdvKgNmCmTJgylqG8/rNph31nCpBDcyddVI8i9KU5SupOCLhfBzL3UV0zs/vMxdlUdeHXH7Pr+hk7pYOXk66oUrFuKarY5N892zqvMf2JSjPjQX7a4u0TjbfM8BW9N4Zv5RO3lBw00vEhh9xxF3qK6Ol5eOpZonmLdm+LiajMTiTC/V4yawrRwJWazl24lfvdZwfeef8Yb/6ygAJ9qJWazn93mW91T6C73ilsz66LQqNbll7yEbdE282yZYrlnkGP7WWFGkOj6T4x/VpRsieIaaZ2DN6WgI0urlbEbQd59dWMmVZn7SVaMG1OlcCVMi/ankaYUgVDazphCrupnBXNbL2vzKppMzWu/RytzYUyU4lutBLX40brD7RQ8T5FpZU/40MwY7QHRwdd2ymjJ3go2Wom07BLOpdJms6lS1EvM3v5u3aEphUcHI9Kl7x0XQko3JIZascPeD4tbpC+o0sYPAzNanGjqKYLM97JYyvLR7BEukLcvX/9s274xRabNM6XWXDC9itwBnUS+urxhbHm+JPK3eq908YhiF6aL8Wf0eYXlWrw9PT21tqBZ0FUK979jK3NE9JjG2cqbc10dUEoHrGT53sqLeP5QV7zgDLiQZhfBD/YXs9qeo7ItTIn2FovF4url62a/ycpvw3guBEtNmeVicXS7pTSv3rklKaqn8zCJmDxEWzeJpb+ReZMoWhQlOpwXffkNSw/DtLAlBmzxIax/uhL/+xbfv6JFyUeLykWLX1N/nimhhYMWzvrXl5qnf6b+PAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPDB/AtGaFW8KOrN7gAAAABJRU5ErkJggg==',
             },
+            {
+              title: 'MySQL',
+              description: 'Desarrollo de bases de datos relacionales utilizando MySQL, optimización de consultas y gestión de datos.',
+              imageUrl: 'https://logodix.com/logo/840740.jpg',
+            },
+            {
+              title: 'Firebase',
+              description: 'Plataforma para el desarrollo de aplicaciones móviles y web que proporciona servicios como autenticación, bases de datos en tiempo real y almacenamiento en la nube.',
+              imageUrl: 'data:image/png;base64,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',
+            },
+            
           ].map((service, index) => (
             <div
               key={index}
-              className="p-6 text-center bg-white bg-opacity-40 rounded-lg shadow-lg hover:bg-gray-300 transition-colors"
+              className="p-6 text-center  rounded-lg shadow-lg"
             >
               {/* Mostrar imagen del servicio */}
               <img
                 src={service.imageUrl}
                 alt={service.title}
-                className="w-full h-48 object-cover rounded-lg mb-4" // Ajusta el tamaño de la imagen según sea necesario
+                className="w-full h-40 object-cover rounded-lg mb-1" 
               />
-              <h3 className="mb-4 text-xl font-semibold">{service.title}</h3>
-              <p className="text-gray-700">{service.description}</p>
+              <h3 className="mb-4 text-3xl text-pink-500 font-semibold">{service.title}</h3>
+              <p className="text-white">{service.description}</p>
             </div>
           ))}
         </div>
