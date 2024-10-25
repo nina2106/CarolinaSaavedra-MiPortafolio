@@ -65,10 +65,17 @@ const Contact = () => {
       <div className="relative z-10 text-center w-full max-w-2xl">
         <h2 className="text-2xl font-bold text-white mb-4">Contact Information</h2>
         <div className="flex justify-around mb-4">
-          {/* Tarjeta de Teléfono */}
+          {/* WhatsApp link */}
           <div className="flex items-center p-3 bg-white rounded-lg shadow-md mx-2">
-            <FontAwesomeIcon icon={faWhatsapp} className="text-blue-500 mr-2 text-4xl" />
-            <span className="text-gray-800 text-lg">(320) 4109566</span>
+            <a 
+              href="https://wa.me/3204109566" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center text-blue-500"
+            >
+              <FontAwesomeIcon icon={faWhatsapp} className="mr-2 text-4xl" />
+              <span className="text-gray-800 text-lg">(320) 4109566</span>
+            </a>
           </div>
           {/* Tarjeta de Dirección */}
           <div className="flex items-center p-3 bg-white rounded-lg shadow-md mx-2">
