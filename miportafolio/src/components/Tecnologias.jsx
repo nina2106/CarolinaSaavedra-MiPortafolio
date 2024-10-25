@@ -1,7 +1,7 @@
 import React from 'react';
-import myGif from '../assets/imagen/fondo.jpg'; // Asegúrate de que esta ruta sea correcta
+import myGif from '../assets/imagen/fondo.jpg'; 
 
-const Services = () => {
+const Tecnologías = () => {
   return (
     <section className="relative flex flex-col items-center justify-center py-10 min-h-screen">
       {/* GIF como fondo */}
@@ -13,7 +13,7 @@ const Services = () => {
       {/* Contenedor principal para título y servicios */}
       <div className="relative z-10 container mx-auto px-4">
         <h2 className="p-8 rounded-lg shadow-lg text-center mb-10 text-9xl font-bold text-blue-200 drop-shadow-lg">
-          Servicios
+          Tecnologías
         </h2>
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {[
@@ -69,8 +69,8 @@ const Services = () => {
                 alt={service.title}
                 className="w-full h-40 object-cover rounded-lg mb-1" 
               />
-              <h3 className="mb-4 text-3xl text-pink-500 font-semibold">{service.title}</h3>
-              <p className="text-white">{service.description}</p>
+              <h3 className="mb-4 text-4xl text-green-400 font-semibold">{service.title}</h3>
+              <p className="text-white text-2xl font">{service.description}</p>
             </div>
           ))}
         </div>
@@ -79,5 +79,5 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Tecnologías;
 

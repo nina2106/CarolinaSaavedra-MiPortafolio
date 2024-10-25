@@ -7,8 +7,8 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Error404 from './pages/Error404';
-import Services from './components/Services';
 import { Contact2 } from './components/Contact2';
+import Tecnologias from './components/Tecnologias';
 
 const App = () => {
   return (
@@ -17,7 +17,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
+        <Route path="/tecnologias" element={<Tecnologias />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/Contact2" element={<Contact2 />} />
         <Route path="/Contact" element={<Contact />} />
