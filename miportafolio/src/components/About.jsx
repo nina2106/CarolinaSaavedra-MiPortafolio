@@ -28,8 +28,17 @@ const About = () => {
         {/* Contenedor del texto más amplio */}
         <div className="text-white max-w-4xl">
           <h1 className="text-7xl text-green-400 text-center font-bold mb-6">Sobre Carolina Saavedra</h1>
-          <p className="text-5xl text-center">
-            Soy diseñadora web con 5 años de experiencia en REM AGENCY. Acabo de terminar mis estudios en el SENA y estoy lista para nuevos desafíos. Durante mis estudios, he trabajado en varios proyectos académicos relacionados con el desarrollo de aplicaciones web, lo que me ha permitido fortalecer mis habilidades en HTML, CSS, JavaScript, y React. Me apasiona el diseño de experiencias de usuario, el trabajo en equipo, y siempre busco mejorar mis habilidades. Además, tengo un fuerte interés en continuar aprendiendo sobre desarrollo frontend y diseño para seguir creciendo profesionalmente.
+          <p className="text-4xl text-center">
+          Diseñadora de interfaces y web con 5 años de experiencia. Estudiante de formación
+          tecnológica en Análisis y Desarrollo de Software en la Institución Educativa Servicio SENA
+          terminada la etapa electiva, desempeñándome como Creación y actualización de contenido
+          visual alineado a la identidad del proyecto, incluyendo diseño de gráficos para redes
+          sociales, banners y materiales digitales, investigando tendencias, organizando archivos,
+          colaborando con equipos y cumpliendo plazos de entrega. Con dominio en diversas
+          tecnologías y lenguajes de programación, incluyendo Software Developer, JavaScript,
+          Flutter, React Native Developer, React Developer, PHP, MySQL, Firebase, HTML,
+          TailwindCss. Competencias laborales como asimilación de normas, seguimiento de
+          instrucciones, trabajo en equipo, liderazgo y responsabilidad.
           </p>
         </div>
       </div>

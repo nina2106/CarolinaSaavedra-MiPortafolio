@@ -91,7 +91,7 @@ const Contact = () => {
               rel="noopener noreferrer" 
               className="text-gray-800 text-lg"
             >
-              GitHub Profile
+              GitHub 
             </a>
           </div>
           {/* Tarjeta de LinkedIn */}
@@ -103,7 +103,7 @@ const Contact = () => {
               rel="noopener noreferrer" 
               className="text-gray-800 text-lg"
             >
-              LinkedIn Profile
+              LinkedIn 
             </a>
           </div>
         </div>
