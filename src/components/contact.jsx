@@ -91,7 +91,7 @@ const Contact = () => {
               rel="noopener noreferrer" 
               className="text-gray-800 text-lg"
             >
-              GitHub 
+              GitHub. 
             </a>
           </div>
           {/* Tarjeta de LinkedIn */}
