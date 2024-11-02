@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faWhatsapp, faGithub } from '@fortawesome/free-brands-svg-icons';
 
-const Contact = () => {
+const Contact1 = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
 
   const handleChange = (e) => {
@@ -112,4 +112,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Contact1;
