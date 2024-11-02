@@ -37,7 +37,7 @@ const Home = () => {
         </Link>
         
         {/* Botón para ir a Contact */}
-        <Link to="/contact">
+        <Link to="/Contact1">
           <button className="mt-8 ml-4 text-2xl text-white bg-blue-800 hover:bg-blue-600 bg-opacity-80 rounded-lg shadow-md px-8 py-4">
             Contact
           </button>
