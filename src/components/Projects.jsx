@@ -8,8 +8,8 @@ import img4 from '../assets/imagen/pantalla2.png';
 const Projects = () => {
   const projectList = [
     {
-      title: 'Proyecto 1: Sistema de Gestión de Reservas para Servicios de Belleza',
-      description: 'Este proyecto fue desarrollado de manera colaborativa en equipo, con el objetivo de crear un sistema de gestión de reservas para un salón de belleza. La plataforma permite a los usuarios visualizar y reservar servicios de belleza, seleccionar fechas y horarios disponibles, y gestionar citas con los colaboradores del salón. El sistema también cuenta con un panel de administración donde los colaboradores pueden gestionar sus horarios de trabajo y revisar las reservas asignadas. Durante el desarrollo del proyecto, el equipo trabajó con tecnologías como React, Node.js, Express y MongoDB.',
+      title: 'Proyecto 1: KACN',
+      description: 'KACN es un proyecto dedicado a ofrecer productos capilares de alta calidad que realzan la belleza natural de cada persona. Nuestra misión es promover el cuidado personal y la sostenibilidad, brindando soluciones efectivas y naturales para cada tipo de cabello, contribuyendo a la confianza y bienestar de nuestros clientes. Nuestra visión es convertirnos en una marca líder a nivel global en el cuidado del cabello, reconocida por nuestro compromiso con la calidad, la innovación y las prácticas sostenibles, ofreciendo soluciones basadas en ingredientes naturales y enfoques responsables.',
       images: [img1, img2],
       link: 'https://github.com/KatheEsparragoza/KeyCode_Grupo_C.git',
     },
