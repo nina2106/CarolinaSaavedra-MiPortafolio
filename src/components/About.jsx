@@ -29,16 +29,9 @@ const About = () => {
         <div className="text-white max-w-4xl">
           <h1 className="text-7xl text-green-400 text-center font-bold mb-6">Sobre Carolina Saavedra</h1>
           <p className="text-4xl text-center">
-          Diseñadora de interfaces y web con 5 años de experiencia. Estudiante de formación
-          tecnológica en Análisis y Desarrollo de Software en la Institución Educativa Servicio SENA
-          terminada la etapa electiva, desempeñándome como Creación y actualización de contenido
-          visual alineado a la identidad del proyecto, incluyendo diseño de gráficos para redes
-          sociales, banners y materiales digitales, investigando tendencias, organizando archivos,
-          colaborando con equipos y cumpliendo plazos de entrega. Con dominio en diversas
-          tecnologías y lenguajes de programación, incluyendo Software Developer, JavaScript,
-          Flutter, React Native Developer, React Developer, PHP, MySQL, Firebase, HTML,
-          TailwindCss. Competencias laborales como asimilación de normas, seguimiento de
-          instrucciones, trabajo en equipo, liderazgo y responsabilidad.
+          Desarrolladora Web Full Stack Junior y Diseñadora de Interfaces Web con 5 años de experiencia en la creación de soluciones digitales. Experiencia en diseño de contenido visual para proyectos web, 
+          incluyendo gráficos para redes sociales, banners y materiales digitales. Con conocimientos en tecnologías como JavaScript, React, React Native, Flutter, PHP, Node.js, Python, MySQL, Firebase, HTML y 
+          Tailwind CSS,Python. Me destaco por ser responsable, autodidacta, trabajar en equipo y cumplir objetivos en el desarrollo de proyectos tecnológicos.
           </p>
         </div>
       </div>
