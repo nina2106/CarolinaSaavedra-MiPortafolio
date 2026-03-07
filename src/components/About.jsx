@@ -20,7 +20,7 @@ const About = () => {
           <img
             src={img4}
             alt="Mi imagen"
-            className="w-48 h-48 object-cover rounded-full border-4 border-green-400 shadow-xl"
+            className="w-72 h-72 object-cover rounded-full border-4 border-green-400 shadow-xl"
           />
         </div>
 
