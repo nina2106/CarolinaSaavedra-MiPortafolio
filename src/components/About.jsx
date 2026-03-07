@@ -1,6 +1,6 @@
 import React from 'react';
 import myGif from '../assets/imagen/fondo.jpg'; 
-import img4 from '../assets/imagen/IMG.jpg'; 
+import img4 from '../assets/imagen/IMG1.jpg'; 
 
 const About = () => {
   return (
@@ -16,7 +16,7 @@ const About = () => {
       <div className="relative z-10 flex items-center justify-start w-full max-w-8xl">
         
         {/* Contenedor de la imagen, más grande */}
-        <div className="flex-shrink-0 mr-12">
+        <div className="flex-shrink-0 mr-9">
           <img
             src={img4}
             alt="Mi imagen"
