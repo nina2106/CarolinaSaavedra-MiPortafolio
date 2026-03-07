@@ -14,7 +14,8 @@ const Home = () => {
       {/* Contenedor principal con texto centrado */}
       <div className="relative z-10 bg-blue bg-opacity-20 rounded-lg shadow-md text-center max-w-4xl p-8"> 
         <h1 className="text-9xl text-green-400 font-bold mb-20">Bienvenido a Mi Portafolio</h1> 
-        <p className="text-8xl text-green-400 mb-10">Maria Carolina Saavedra Garzon</p> 
+        <p className="text-8xl text-green-400 mb-10">Desarrolladora FullStack y Diseñadora UI</p> 
+        <p className="text-8xl text-green-400 mb-10">Maria Carolina Saavedra Garzon</p>
         
         {/* Botón para ir a About Me */}
         <Link to="/about">
