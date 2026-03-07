@@ -1,80 +1,57 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import myGif from '../assets/imagen/fondo.jpg';
+import myGif from '../assets/imagen/fondo.jpg'; 
 
 const Home = () => {
   return (
-    <div className="relative flex flex-col items-center justify-center h-screen bg-gray-100">
-
+    <div className="relative flex flex-col items-center justify-center h-screen bg-gray-100"> 
       {/* Imagen de fondo */}
       <img
         src={myGif}
-        alt="Fondo"
+        alt="Fondo animado"
         className="absolute inset-0 w-full h-full object-cover"
       />
+      {/* Contenedor principal con texto centrado */}
+      <div className="relative z-10 bg-blue bg-opacity-20 rounded-lg shadow-md text-center max-w-4xl p-8"> 
+          <h1 className="text-6xl text-green-400 font-bold mb-6">
+              Hola, soy María Carolina Saavedra Garzón</h1> 
+      <p className="text-7xl text-green-400 mb-8">
+               Desarrolladora FullStack <h1>y Diseñadora UI</h1> 
+    </p> 
+       
+       {/* Botón para ir a About Me */}
+        <Link to="/about">
+          <button className="mt-8 text-2xl text-white bg-blue-800 hover:bg-blue-600 bg-opacity-80 rounded-lg shadow-md px-8 py-4">
+            Ver CH
+          </button>
+        </Link>
+        
+        {/* Botón para ir a About Me */}
+        <Link to="/about">
+          <button className="mt-8 text-2xl text-white bg-blue-800 hover:bg-blue-600 bg-opacity-80 rounded-lg shadow-md px-8 py-4">
+            About Me
+          </button>
+        </Link>
+        
+        <Link to="/projects">
+          <button className="mt-8 ml-4 text-2xl text-white bg-blue-800 hover:bg-blue-600 bg-opacity-80 rounded-lg shadow-md px-8 py-4">
+            Projects
+          </button>
+        </Link>
 
-      {/* Contenedor principal */}
-      <div className="relative z-10 bg-blue bg-opacity-20 rounded-lg shadow-md text-center max-w-4xl p-8">
-
-        <h1 className="text-5xl text-green-400 font-bold mb-4">
-          Hola, soy María Carolina Saavedra Garzón
-        </h1>
-
-        <p className="text-2xl text-green-400 mb-8">
-          Desarrolladora FullStack y Diseñadora UI
-        </p>
-
-        {/* Botones */}
-        <div className="flex flex-wrap justify-center gap-4">
-
-          <Link to="/about">
-            <button className="text-xl text-white bg-blue-800 hover:bg-blue-600 rounded-lg shadow-md px-6 py-3">
-              About Me
-            </button>
-          </Link>
-
-          <Link to="/projects">
-            <button className="text-xl text-white bg-blue-800 hover:bg-blue-600 rounded-lg shadow-md px-6 py-3">
-              Projects
-            </button>
-          </Link>
-
-          <Link to="/tecnologias">
-            <button className="text-xl text-white bg-blue-800 hover:bg-blue-600 rounded-lg shadow-md px-6 py-3">
-              Tecnologías
-            </button>
-          </Link>
-
-          <Link to="/Contact1">
-            <button className="text-xl text-white bg-blue-800 hover:bg-blue-600 rounded-lg shadow-md px-6 py-3">
-              Contact
-            </button>
-          </Link>
-
-        </div>
-
-        {/* Cuadro de hoja de vida */}
-        <div className="mt-10 bg-white bg-opacity-20 backdrop-blur-md rounded-lg p-6 shadow-lg">
-
-          <h2 className="text-2xl text-white font-bold mb-3">
-            Mi Hoja de Vida
-          </h2>
-
-          <p className="text-white mb-4">
-            Puedes ver o descargar mi hoja de vida para conocer más sobre mi experiencia y habilidades.
-          </p>
-
-          <a
-            href="/Users/rem/Desktop/CAROLINA/HOJA DE VIDA MARIA CAROLINA SAAVEDRA GARZON.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg"
-          >
-            Ver Hoja de Vida
-          </a>
-
-        </div>
-
+        {/* Botón para ir a Servicios */}
+        <Link to="/tecnologias">
+          <button className="mt-8 ml-4 text-2xl text-white bg-blue-800 hover:bg-blue-600 bg-opacity-80 rounded-lg shadow-md px-8 py-4">
+            Ver Tecnologías
+          </button>
+        </Link>
+        
+        {/* Botón para ir a Contact */}
+        <Link to="/Contact1">
+          <button className="mt-8 ml-4 text-2xl text-white bg-blue-800 hover:bg-blue-600 bg-opacity-80 rounded-lg shadow-md px-8 py-4">
+            Contact
+          </button>
+        </Link>
       </div>
     </div>
   );
