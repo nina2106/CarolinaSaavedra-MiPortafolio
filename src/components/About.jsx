@@ -1,4 +1,3 @@
-import React from 'react';
 import myGif from '../assets/imagen/fondo.jpg';
 import img4 from '../assets/imagen/IMG1.jpg';
 
