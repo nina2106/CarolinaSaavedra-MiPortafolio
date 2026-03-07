@@ -1,6 +1,6 @@
 import React from 'react';
 import myGif from '../assets/imagen/fondo.jpg'; 
-import img4 from '../assets/imagen/IMG1.jpg'; 
+import img4 from '../assets/imagen/IMG.jpg'; 
 
 const About = () => {
   return (
@@ -13,7 +13,7 @@ const About = () => {
       />
 
       {/* Contenedor principal más grande con flex para dividir imagen y texto */}
-      <div className="relative z-10 flex items-center justify-start w-full max-w-7xl">
+      <div className="relative z-10 flex items-center justify-start w-full max-w-8xl">
         
         {/* Contenedor de la imagen, más grande */}
         <div className="flex-shrink-0 mr-12">
