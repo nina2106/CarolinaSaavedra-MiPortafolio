@@ -19,12 +19,11 @@ const Home = () => {
                Desarrolladora FullStack <h1>y Diseñadora UI</h1> 
     </p> 
        
-       {/* Botón para ir a About Me */}
-        <Link to="/ver CH">
-          <button className="mt-8 text-2xl text-white bg-blue-800 hover:bg-blue-600 bg-opacity-80 rounded-lg shadow-md px-8 py-4">
-            Ver CH
-          </button>
-        </Link>
+       <a href="/Users/rem/Desktop/CAROLINA/HOJA DE VIDA MARIA CAROLINA SAAVEDRA GARZON.pdf" target="_blank">
+          <button className="mt-8 ml-4 text-2xl text-white bg-green-700 hover:bg-green-600 rounded-lg px-8 py-4">
+              Ver Hoja de Vida
+           </button>
+      </a>
          <h1>
          </h1>
           <h1>
