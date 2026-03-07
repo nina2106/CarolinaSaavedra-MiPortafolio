@@ -1,6 +1,6 @@
 import React from 'react';
 import myGif from '../assets/imagen/fondo.jpg'; 
-import img4 from '../assets/imagen/imagen2.jpg'; 
+import img4 from '../assets/imagen/IMG.jpg'; 
 
 const About = () => {
   return (
