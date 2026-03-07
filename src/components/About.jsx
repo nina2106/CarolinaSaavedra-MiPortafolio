@@ -4,7 +4,7 @@ import img4 from '../assets/imagen/IMG1.jpg';
 
 const About = () => {
   return (
-    <div className="relative flex items-center justify-center min-h-screen p-7">
+    <div className="relative flex items-center justify-center min-h-screen p-8">
 
       {/* Imagen de fondo */}
       <img
@@ -32,11 +32,7 @@ const About = () => {
           </h1>
 
           <p className="text-xl text-center">
-            Desarrolladora Web Full Stack Junior y Diseñadora de Interfaces Web con 5 años de experiencia en la creación de soluciones 
-            digitales. Experiencia en diseño de contenido visual para proyectos web, incluyendo gráficos para redes sociales, banners y 
-            materiales digitales. Con conocimientos en tecnologías como JavaScript, React, React Native, Flutter, PHP, Node.js, Python, MySQL, 
-            Firebase, HTML y Tailwind CSS. Me destaco por ser responsable, autodidacta, trabajar en equipo y cumplir objetivos en el desarrollo 
-            de proyectos tecnológicos.
+            Desarrolladora Web Full Stack Junior y Diseñadora de Interfaces Web con 5 años de experiencia en la creación de soluciones digitales. Experiencia en diseño de contenido visual para proyectos web, incluyendo gráficos para redes sociales, banners y materiales digitales. Con conocimientos en tecnologías como JavaScript, React, React Native, Flutter, PHP, Node.js, Python, MySQL, Firebase, HTML y Tailwind CSS. Me destaco por ser responsable, autodidacta, trabajar en equipo y cumplir objetivos en el desarrollo de proyectos tecnológicos.
           </p>
         </div>
 
