@@ -65,7 +65,7 @@ const Home = () => {
           </p>
 
           <a
-            href="/CV-Carolina-Saavedra.pdf"
+            href="/Users/rem/Desktop/CAROLINA/HOJA DE VIDA MARIA CAROLINA SAAVEDRA GARZON.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg"
