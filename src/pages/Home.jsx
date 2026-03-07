@@ -20,7 +20,7 @@ const Home = () => {
     </p> 
        
        {/* Botón para ir a About Me */}
-        <Link to="/about">
+        <Link to="/ver CH">
           <button className="mt-8 text-2xl text-white bg-blue-800 hover:bg-blue-600 bg-opacity-80 rounded-lg shadow-md px-8 py-4">
             Ver CH
           </button>
