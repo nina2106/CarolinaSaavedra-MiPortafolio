@@ -26,7 +26,8 @@ const Home = () => {
           </button>
         </Link>
          <h1>
-          
+         </h1>
+          <h1>
          </h1>
         {/* Botón para ir a About Me */}
         <Link to="/about">
