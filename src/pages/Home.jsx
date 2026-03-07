@@ -18,15 +18,12 @@ const Home = () => {
       <p className="text-7xl text-green-400 mb-8">
                Desarrolladora FullStack <h1>y Diseñadora UI</h1> 
     </p> 
-       <a 
-        href="/cv-carolina-saavedra.pdf"
-          target="_blank"
-          rel="noopener noreferrer">
-      <button className="mt-8 text-2xl text-white bg-green-700 hover:bg-green-500 rounded-lg shadow-md px-8 py-4">
-          Ver Hoja de Vida
-      </button>
-      </a>
-
+       
+      <a href="/cv-carolina-saavedra.pdf" download>
+  <button className="mt-8 text-2xl text-white bg-blue-700 hover:bg-blue-500 rounded-lg shadow-md px-8 py-4">
+    Descargar CV
+  </button>
+</a>
          <h1>
          </h1>
           <h1>
