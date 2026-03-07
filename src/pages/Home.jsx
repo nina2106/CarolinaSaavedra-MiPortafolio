@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import myGif from '../assets/imagen/fondo.jpg'; 
+import myGif from '../assets/imagen/fondo.jpg';
 
 const Home = () => {
   return (
-    <div className="relative flex flex-col items-center justify-center h-screen bg-gray-100"> 
+    <div className="relative flex flex-col items-center justify-center h-screen bg-gray-100">
       {/* Imagen de fondo */}
       <img
         src={myGif}
@@ -12,33 +12,33 @@ const Home = () => {
         className="absolute inset-0 w-full h-full object-cover"
       />
       {/* Contenedor principal con texto centrado */}
-      <div className="relative z-10 bg-blue bg-opacity-20 rounded-lg shadow-md text-center max-w-4xl p-8"> 
-          <h1 className="text-6xl text-green-400 font-bold mb-6">
-              Hola, soy María Carolina Saavedra Garzón</h1> 
-      <p className="text-7xl text-green-400 mb-8">
-               Desarrolladora FullStack <h1>y Diseñadora UI</h1> 
-    </p> 
-       
-   <a 
-  href="/HOJA DE VIDA MARIA CAROLINA SAAVEDRA GARZON.pdf" 
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <button className="mt-8 text-2xl text-white bg-blue-700 hover:bg-blue-500 rounded-lg shadow-md px-8 py-4">
-    Ver Hoja de Vida
-  </button>
-</a>
-         <h1>
-         </h1>
-          <h1>
-         </h1>
+      <div className="relative z-10 bg-blue bg-opacity-20 rounded-lg shadow-md text-center max-w-4xl p-8">
+        <h1 className="text-6xl text-green-400 font-bold mb-6">
+          Hola, soy María Carolina Saavedra Garzón</h1>
+        <p className="text-7xl text-green-400 mb-8">
+          Desarrolladora FullStack <h1>y Diseñadora UI</h1>
+        </p>
+
+        <a
+          href="/HOJA DE VIDA MARIA CAROLINA SAAVEDRA GARZON.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="mt-8 text-2xl text-white bg-blue-800 hover:bg-blue-600 bg-opacity-80 rounded-lg shadow-md px-8 py-4">
+            Ver Hoja de Vida
+          </button>
+        </a>
+        <h1>
+        </h1>
+        <h1>
+        </h1>
         {/* Botón para ir a About Me */}
         <Link to="/about">
           <button className="mt-8 text-2xl text-white bg-blue-800 hover:bg-blue-600 bg-opacity-80 rounded-lg shadow-md px-8 py-4">
             About Me
           </button>
         </Link>
-        
+
         <Link to="/projects">
           <button className="mt-8 ml-4 text-2xl text-white bg-blue-800 hover:bg-blue-600 bg-opacity-80 rounded-lg shadow-md px-8 py-4">
             Projects
@@ -51,7 +51,7 @@ const Home = () => {
             Ver Tecnologías
           </button>
         </Link>
-        
+
         {/* Botón para ir a Contact */}
         <Link to="/Contact1">
           <button className="mt-8 ml-4 text-2xl text-white bg-blue-800 hover:bg-blue-600 bg-opacity-80 rounded-lg shadow-md px-8 py-4">
