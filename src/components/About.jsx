@@ -4,7 +4,7 @@ import img4 from '../assets/imagen/IMG1.jpg';
 
 const About = () => {
   return (
-    <div className="relative flex items-center justify-center min-h-screen p-4">
+    <div className="relative flex items-center justify-center min-h-screen p-6">
 
       {/* Imagen de fondo */}
       <img
