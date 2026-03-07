@@ -86,7 +86,7 @@ const Contact1 = () => {
           <div className="flex items-center p-3 bg-white rounded-lg shadow-md mx-2">
             <FontAwesomeIcon icon={faGithub} className="text-blue-500 mr-2 text-4xl" />
             <a 
-              href="https://github.com/dashboard" 
+              href="https://github.com/nina2106/Carolina-Saavedra.git" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-gray-800 text-lg"
