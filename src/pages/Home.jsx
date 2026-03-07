@@ -16,7 +16,7 @@ const Home = () => {
           <h1 className="text-4xl text-green-400 font-bold mb-6">
               Hola, soy María Carolina Saavedra Garzón</h1> 
       <p className="text-7xl text-green-400 mb-8">
-    Desarrolladora FullStack y Diseñadora UI
+    Desarrolladora FullStack   <h1>y Diseñadora UI</h1> 
     </p> 
        
         
