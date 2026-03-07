@@ -19,13 +19,10 @@ const Home = () => {
                Desarrolladora FullStack <h1>y Diseñadora UI</h1> 
     </p> 
        
-       <a 
-        href="/HOJA%20DE%20VIDA%20MARIA%20CAROLINA%20SAAVEDRA%20GARZON.pdf" 
-          target="_blank"
-            rel="noopener noreferrer"> 
-  <button className="mt-8 text-2xl text-white bg-green-700 hover:bg-green-500 rounded-lg shadow-md px-8 py-4">
-    Ver Hoja de Vida
-  </button>
+        <a href="/cv-carolina-saavedra.pdf" download>
+            <button className="mt-8 text-2xl text-white bg-blue-700 hover:bg-blue-500 rounded-lg shadow-md px-8 py-4">
+             Descargar CV
+            </button>
 </a>
          <h1>
          </h1>
