@@ -98,7 +98,7 @@ const Contact1 = () => {
           <div className="flex items-center p-3 bg-white rounded-lg shadow-md mx-2">
             <FontAwesomeIcon icon={faLinkedin} className="text-blue-500 mr-2 text-4xl" />
             <a 
-              href="https://www.linkedin.com/feed/" 
+              href="www.linkedin.com/in/carolinasaavedrag" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-gray-800 text-lg"
