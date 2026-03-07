@@ -20,7 +20,7 @@ const Home = () => {
     </p> 
        
         <a href="/cv-carolina-saavedra.pdf" download>
-            <button className="mt-8 text-2xl text-white bg-blue-700 hover:bg-blue-500 rounded-lg shadow-md px-8 py-4">
+            <button className="mt-8 text-2xl text-white bg-blue-800 hover:bg-blue-600 bg-opacity-80 rounded-lg shadow-md px-8 py-4">
              Descargar CV
             </button>
 </a>
