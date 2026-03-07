@@ -12,9 +12,15 @@ const Home = () => {
         className="absolute inset-0 w-full h-full object-cover"
       />
       {/* Contenedor principal con texto centrado */}
-      <div className="relative z-10 bg-blue bg-opacity-20 rounded-lg shadow-md text-center max-w-4xl p-8"> 
-        <h1 className="text-9xl text-green-400 font-bold mb-18">Hola, soy María Carolina Saavedra Garzón</h1> 
-        <p className="text-8xl text-green-400 mb-8">Desarrolladora FullStack y Diseñadora UI</p> 
+    <div className="relative z-10 bg-blue bg-opacity-20 rounded-lg shadow-md text-center max-w-4xl p-8"> 
+  <h1 className="text-4xl text-green-400 font-bold mb-6">
+    Hola, soy María Carolina Saavedra Garzón
+  </h1> 
+
+  <p className="text-2xl text-green-400 mb-8">
+    Desarrolladora FullStack y Diseñadora UI
+  </p> 
+</div>
        
         
         {/* Botón para ir a About Me */}
