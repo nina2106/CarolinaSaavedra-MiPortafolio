@@ -19,7 +19,7 @@ const About = () => {
         <div className="relative z-10 flex items-center justify-start w-full max-w-4xl">
 
           {/* Contenedor de la imagen */}
-          <div className="flex-shrink-0 mr-12">
+          <div className="flex-shrink-0 mr-9">
             <img
               src={img4}
               alt="Mi imagen"
