@@ -19,7 +19,7 @@ const About = () => {
        
 
           {/* Contenedor de la imagen */}
-          <div className="flex-shrink-0 mr-12">
+          <div className="flex-shrink-0 mr-17">
             <img
               src={img4}
               alt="Mi imagen"
