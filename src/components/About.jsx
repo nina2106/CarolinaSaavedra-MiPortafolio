@@ -5,29 +5,27 @@ import img4 from '../assets/imagen/IMG1.jpg';
 const About = () => {
   return (
     <div className="relative flex items-center justify-center h-screen p-8">
-      {/* GIF como fondo */}
+
+      {/* Fondo */}
       <img
         src={myGif}
         alt="GIF sobre mí"
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover opacity-30"
       />
 
-      {/* Contenedor principal más grande con flex para dividir imagen y texto */}
-      <div className="relative z-10 flex items-center justify-start w-full max-w-8xl">
+      {/* Contenedor principal */}
+      <div className="relative z-10 flex items-center max-w-6xl w-full">
 
-        {/* Contenedor de la imagen, más grande */}
-        <div className="relative z-10 flex items-center justify-start w-full max-w-7xl">
-
-          {/* Contenedor de la imagen */}
-          <div className="flex-shrink-0 mr-12">
-            <img
-              src={img4}
-              alt="Mi imagen"
-              className="w-82 h-72 object-cover rounded-full shadow-lg"
-            />
-          </div>
-
+        {/* Imagen */}
+        <div className="flex-shrink-0 mr-12">
+          <img
+            src={img4}
+            alt="Mi imagen"
+            className="w-64 h-64 object-cover rounded-full shadow-lg"
+          />
         </div>
+
+
 
         {/* Contenedor del texto más amplio */}
         <div className="text-white max-w-4xl">
