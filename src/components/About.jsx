@@ -13,17 +13,17 @@ const About = () => {
       />
 
       {/* Contenedor principal más grande con flex para dividir imagen y texto */}
-      <div className="relative z-10 flex items-center justify-start w-full max-w-4xl">
+      <div className="relative z-10 flex items-center justify-start w-full max-w-8xl">
 
         {/* Contenedor de la imagen, más grande */}
         <div className="relative z-10 flex items-center justify-start w-full max-w-7xl">
 
           {/* Contenedor de la imagen */}
-          <div className="flex-shrink-0 mr-8">
+          <div className="flex-shrink-0 mr-12">
             <img
               src={img4}
               alt="Mi imagen"
-              className="w-66 h-66 object-cover rounded-full shadow-lg"
+              className="w-76 h-76 object-cover rounded-full shadow-lg"
             />
           </div>
 
