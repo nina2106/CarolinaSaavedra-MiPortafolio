@@ -16,14 +16,14 @@ const About = () => {
       <div className="relative z-10 flex items-center justify-start w-full max-w-8xl">
 
         {/* Contenedor de la imagen, más grande */}
-        <div className="relative z-10 flex items-center justify-start w-full max-w-8xl">
+        <div className="flex-shrink-0 mr-12 w-80 h-80 overflow-hidden rounded-full shadow-lg">
 
           {/* Contenedor de la imagen */}
           <div className="flex-shrink-0 mr-12">
             <img
               src={img4}
               alt="Mi imagen"
-              className="w-82 h-72 object-cover rounded-full shadow-lg"
+              className="w-full h-full object-cover"
             />
           </div>
 
