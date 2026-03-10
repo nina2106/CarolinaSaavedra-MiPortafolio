@@ -9,7 +9,7 @@ const About = () => {
       <img
         src={myGif}
         alt="GIF sobre mí"
-        className="absolute inset-0 w-full h-full object-cover"
+        className="aabsolute inset-0 w-full h-full object-cover opacity-20"
       />
 
       {/* Contenedor principal más grande con flex para dividir imagen y texto */}
@@ -23,7 +23,7 @@ const About = () => {
             <img
               src={img4}
               alt="Mi imagen"
-              className="w-90 h-82 object-cover rounded-full shadow-lg"
+              className="w-90 h-8 object-cover rounded-full shadow-lg"
             />
           </div>
 
