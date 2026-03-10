@@ -10,7 +10,7 @@ const About = () => {
       <img
         src={myGif}
         alt="GIF sobre mí"
-        className="absolute inset-0 w-full h-full object-cover opacity-30"
+        className="absolute inset-0 w-full h-full object-cover"
       />
 
       {/* Contenedor principal */}
