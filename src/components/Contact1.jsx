@@ -26,7 +26,7 @@ const Contact1 = () => {
         className="absolute inset-0 w-full h-full object-cover"
       />
       {/* Contenido del formulario */}
-      <div className="relative z-10 p-8 bg-blue-800 rounded-lg shadow-lg text-center w-full max-w-2xl mb-8">
+      <div className="relative z-10 p-8 bg-blue-500 rounded-lg shadow-lg text-center w-full max-w-2xl mb-8">
         <h1 className="text-4xl text-white font-bold mb-6">Contact Me</h1>
         <form onSubmit={handleSubmit} className="flex flex-col max-w-lg mx-auto">
           <input
