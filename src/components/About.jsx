@@ -21,7 +21,7 @@ const About = () => {
           <img
             src={img4}
             alt="Mi imagen"
-            className="w-[30rem] h-[30rem] object-cover rounded-full shadow-2xl border-4 border-white"
+            className="w-[30rem] h-[30rem] object-cover rounded-full shadow-2xl border-4 border-white float-animation hover:scale-105 transition duration-500"
           />
         </div>
 
