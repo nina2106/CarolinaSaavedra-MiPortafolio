@@ -1,4 +1,3 @@
-/* Animación flotante */
 @keyframes float {
   0% {
     transform: translateY(0px);
@@ -13,30 +12,4 @@
 
 .float-animation {
   animation: float 4s ease-in-out infinite;
-}
-
-/* Halo animado */
-@keyframes rotateHalo {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-.halo {
-  position: absolute;
-  width: 32rem;
-  height: 32rem;
-  border-radius: 50%;
-  background: conic-gradient(
-    #22c55e,
-    #4ade80,
-    #22c55e,
-    #16a34a,
-    #22c55e
-  );
-  filter: blur(25px);
-  animation: rotateHalo 8s linear infinite;
 }
