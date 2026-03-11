@@ -21,7 +21,7 @@ const About = () => {
           <img
             src={img4}
             alt="Mi imagen"
-            className="w-[30rem] h-[30rem] object-cover rounded-full shadow-2xl border-4 border-white float-animation hover:scale-105 transition duration-500"
+            className="w-[30rem] h-[30rem] object-cover rounded-full shadow-2xl border-4 border-white float-animation"
           />
         </div>
 
@@ -36,8 +36,7 @@ const About = () => {
             con experiencia en la creación de soluciones digitales. Con
             conocimientos en tecnologías como JavaScript, React, React Native,
             Flutter, PHP, Node.js, Python, MySQL, Firebase, HTML y Tailwind CSS.
-            Me destaco por ser responsable, autodidacta y trabajar en equipo en
-            el desarrollo de proyectos tecnológicos.
+            Me destaco por ser responsable, autodidacta y trabajar en equipo.
           </p>
         </div>
 
