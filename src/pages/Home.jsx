@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import myGif from '../assets/imagen/fondo.jpg';
+import myGif from '../assets/imagen/v1016-b-09.jpg';
 
 const Home = () => {
   return (
