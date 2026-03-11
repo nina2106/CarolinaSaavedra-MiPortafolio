@@ -36,10 +36,10 @@ const Projects = () => {
           {projectList.map((project, index) => (
             <div key={index} className="p-4 bg-blue-700 bg-opacity-60 rounded-lg shadow-md flex flex-col items-center max-w-full">
               {/* Título del proyecto con un tamaño de fuente más grande */}
-              <h2 className="text-4xl text-green-400 font-semibold mb-4 text-center">{project.title}</h2>
+              <h2 className="text-4xl text-blue-300 font-semibold mb-4 text-center">{project.title}</h2>
               
               {/* Descripción del proyecto con un tamaño de fuente más grande */}
-              <p className="text-3xl text-emerald-200 mb-6 text-center">
+              <p className="text-3xl text-blue-300 mb-6 text-center">
                 {project.description}
               </p>
 
