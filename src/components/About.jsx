@@ -14,33 +14,30 @@ const About = () => {
       />
 
       {/* Contenedor principal */}
-      <div className="relative z-10 flex items-center gap-20 max-w-7xl">
+      <div className="relative z-10 flex items-center gap-24 max-w-7xl">
 
         {/* Imagen */}
         <div className="flex-shrink-0">
           <img
             src={img4}
             alt="Mi imagen"
-            className="w-96 h-96 object-cover rounded-full shadow-2xl border-4 border-white"
+            className="w-[30rem] h-[30rem] object-cover rounded-full shadow-2xl border-4 border-white"
           />
         </div>
 
         {/* Texto */}
         <div className="text-white max-w-5xl">
-          <h1 className="text-6xl text-green-400 font-bold mb-6">
+          <h1 className="text-7xl text-green-400 font-bold mb-8">
             Soy Maria Carolina Saavedra
           </h1>
 
-          <p className="text-2xl leading-relaxed">
-            Desarrolladora Web Full Stack Junior y Diseñadora de Interfaces Web con
-            5 años de experiencia en la creación de soluciones digitales.
-            Experiencia en diseño de contenido visual para proyectos web,
-            incluyendo gráficos para redes sociales, banners y materiales
-            digitales. Con conocimientos en tecnologías como JavaScript, React,
-            React Native, Flutter, PHP, Node.js, Python, MySQL, Firebase, HTML y
-            Tailwind CSS. Me destaco por ser responsable, autodidacta, trabajar
-            en equipo y cumplir objetivos en el desarrollo de proyectos
-            tecnológicos.
+          <p className="text-3xl leading-relaxed">
+            Desarrolladora Web Full Stack Junior y Diseñadora de Interfaces Web
+            con experiencia en la creación de soluciones digitales. Con
+            conocimientos en tecnologías como JavaScript, React, React Native,
+            Flutter, PHP, Node.js, Python, MySQL, Firebase, HTML y Tailwind CSS.
+            Me destaco por ser responsable, autodidacta y trabajar en equipo en
+            el desarrollo de proyectos tecnológicos.
           </p>
         </div>
 
