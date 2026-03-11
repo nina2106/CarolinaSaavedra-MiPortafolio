@@ -29,8 +29,8 @@ const Projects = () => {
         className="absolute inset-0 w-full h-full object-cover" 
       />
       <div className="relative z-10 p-8 bg-blue bg-opacity-80 rounded-lg shadow-md">
-        <h1 className="text-9xl text-white font-bold mb-4 text-center">Mis Proyectos</h1>
-        <p className="text-5xl text-white mb-8 text-center">Aquí hay algunos de los proyectos en los que he trabajado.</p>
+        <h1 className="text-9xl text-blue-300 font-bold mb-4 text-center">Mis Proyectos</h1>
+        <p className="text-5xl text-blue-300 mb-8 text-center">Aquí hay algunos de los proyectos en los que he trabajado.</p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
           {projectList.map((project, index) => (
