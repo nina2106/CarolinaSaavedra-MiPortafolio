@@ -1,5 +1,5 @@
 import React from 'react';
-import myGif from '../assets/imagen/fondo.jpg';
+import myGif from '../assets/imagen/v1016-b-09.jpg';
 import img4 from '../assets/imagen/IMG1.jpg';
 
 const About = () => {
