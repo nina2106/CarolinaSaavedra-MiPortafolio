@@ -1,5 +1,5 @@
 import React from 'react';
-import myGif from '../assets/imagen/fondo.jpg'; 
+import myGif from '../assets/imagen/v1016-b-09.jpg'; 
 
 const Tecnologías = () => {
   return (

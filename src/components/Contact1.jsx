@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import myGif from '../assets/imagen/fondo.jpg';
+import myGif from '../assets/imagen/v1016-b-09.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faWhatsapp, faGithub } from '@fortawesome/free-brands-svg-icons';

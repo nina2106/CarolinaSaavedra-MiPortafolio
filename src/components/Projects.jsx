@@ -1,5 +1,5 @@
 import React from 'react';
-import myGif from '../assets/imagen/fondo.jpg'; 
+import myGif from '../assets/imagen/v1016-b-09.jpg'; 
 import img1 from '../assets/imagen/pantalla3.png'; 
 import img2 from '../assets/imagen/pantalla4.png'; 
 import img3 from '../assets/imagen/pantalla.png'; 
