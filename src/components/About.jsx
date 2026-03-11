@@ -14,24 +14,24 @@ const About = () => {
       />
 
       {/* Contenedor principal */}
-      <div className="relative z-10 flex items-center gap-12 max-w-6xl">
+      <div className="relative z-10 flex items-center gap-16 max-w-7xl">
 
         {/* Imagen */}
         <div className="flex-shrink-0">
           <img
             src={img4}
             alt="Mi imagen"
-            className="w-72 h-72 object-cover rounded-full shadow-2xl border-4 border-white"
+            className="w-80 h-80 object-cover rounded-full shadow-2xl border-4 border-white"
           />
         </div>
 
         {/* Texto */}
-        <div className="text-white max-w-3xl">
-          <h1 className="text-4xl text-green-400 font-bold mb-6">
+        <div className="text-white max-w-4xl">
+          <h1 className="text-5xl text-green-400 font-bold mb-6">
             Soy Maria Carolina Saavedra
           </h1>
 
-          <p className="text-lg leading-relaxed">
+          <p className="text-xl leading-relaxed">
             Desarrolladora Web Full Stack Junior y Diseñadora de Interfaces Web
             con 5 años de experiencia en la creación de soluciones digitales.
             Experiencia en diseño de contenido visual para proyectos web,
