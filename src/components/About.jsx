@@ -34,7 +34,7 @@ const About = () => {
         {/* Texto */}
         <div className="text-white max-w-5xl">
           <h1 className="text-7xl text-green-400 font-bold mb-8">
-            Soy Maria Carolina Saavedra
+            Soy Maria Carolina Saavedra Garzon
           </h1>
 
           <p className="text-3xl leading-relaxed">
