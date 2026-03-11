@@ -69,7 +69,7 @@ const Tecnologías = () => {
                 alt={service.title}
                 className="w-full h-40 object-cover rounded-lg mb-1" 
               />
-              <h3 className="mb-4 text-4xl text-green-400 font-semibold">{service.title}</h3>
+              <h3 className="mb-4 text-4xl text-blue-300 font-semibold">{service.title}</h3>
               <p className="text-white text-2xl font">{service.description}</p>
             </div>
           ))}
